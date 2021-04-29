@@ -1,5 +1,5 @@
 # PHP Developer Role - Technical Test 
-We have a network of companies that we would like to be able to match with users looking for services in their area. The network is still growing and right now and we only have companies covering Birmingham (B) and Cardiff (CF). 
+We have a network of companies that we would like to be able to match with users looking for services in their area. The network is still growing and right now and we only have companies covering Birmingham (B), Bristol (BS) and Cardiff (CF). 
 
 Unfortunately the dev looking after this project ran into some trouble and committed some broken and unfinished code. Can you help us out?
 
