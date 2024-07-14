@@ -1,0 +1,33 @@
+{% extends 'app.twig' %}
+
+<fieldset>
+	<legend>Address</legend>
+	<p>
+		<label for="address_line_1" class="required">Current address line 1</label>
+		<input type="text" name="address_line_1" id="address_line_1" required value="123 Current St">
+	</p>
+	<p>
+		<label for="address_line_2">Current address line 2</label>
+		<input type="text" name="address_line_2" id="address_line_2">
+	</p>
+	<p>
+		<label for="address_line_3">Current address line 3</label>
+		<input type="text" name="address_line_3" id="address_line_3">
+	</p>
+	<p>
+		<label for="address_line_4">Current address line 4</label>
+		<input type="text" name="address_line_4" id="address_line_4">
+	</p>
+	<p>
+		<label for="town" class="required">Current town/city</label>
+		<input type="text" name="{{ service }}[town]" id="town" required value="Current Town">
+	</p>
+	<p>
+		<label for="county">Current county</label>
+		<input type="text" name="{{ service }}[county]" id="county">
+	</p>
+	<p>
+		<label for="postcode" class="required">Current postcode</label>
+		<input type="text" name="{{ service }}[postcode]" id="postcode" required value="CF11 9HB">
+	</p>
+</fieldset>

@@ -1,0 +1,21 @@
+{% extends 'app.twig' %}
+
+<fieldset>
+	<legend>Contact Details</legend>
+	<p>
+		<label for="first_name" class="required">First name</label>
+		<input type="text" name="{{ service }}[first_name]" id="first_name" required value="Test">
+	</p>
+	<p>
+		<label for="surname">Surname</label>
+		<input type="text" name="{{ service }}[surname]" id="surname" placeholder="" value="Customer">
+	</p>
+	<p>
+		<label for="email" class="required">Email address</label>
+		<input type="email" name="{{ service }}[email]" id="email" required value="test@email.com">
+	</p>
+	<p>
+		<label for="phone" class="required">Telephone number</label>
+		<input type="text" name="{{ service }}[phone]" id="phone" required value="00000111111">
+	</p>
+</fieldset>
